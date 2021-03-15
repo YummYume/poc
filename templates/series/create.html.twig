@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter une série{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row justify_content_center">
+        <div class="col-lg-10 col-md-11 col-12 login_form">
+            {{ form_start(form) }}
+            <div>
+                <div class="my-2">
+                    {{ form_row(form.name) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.summary) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.thumbnail) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.release_date) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.current_episode) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.current_season) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.category) }}
+                </div>
+                <div class="my-2">
+                    {{ form_row(form.is_finished) }}
+                </div>
+                <div class="my-2">
+                    {{ form_widget(form.submit) }}
+                </div>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+{% endblock %}

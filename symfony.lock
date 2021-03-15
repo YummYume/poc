@@ -93,11 +93,17 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.2.0"
     },
+    "leafo/scssphp": {
+        "version": "v0.8.4"
+    },
     "monolog/monolog": {
         "version": "2.2.0"
     },
     "nikic/php-parser": {
         "version": "v4.10.4"
+    },
+    "patchwork/jsqueeze": {
+        "version": "v2.0.5"
     },
     "php": {
         "version": "7.4"
